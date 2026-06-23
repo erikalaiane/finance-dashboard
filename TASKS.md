@@ -1,7 +1,9 @@
 # 📋 Tarefas de Desenvolvimento — Vexra Denaro
 
 > Projeto pessoal de portfólio — React + TypeScript + Tailwind + Recharts
+
 > **Identidade:** Vexra Denaro · *Soluzioni Finanziarie* — fintech fictício com estética dark, glassmorphism e tipografia editorial
+
 > Objetivo: aprender TypeScript na prática enquanto constrói um dashboard financeiro completo
 
 ---
