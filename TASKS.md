@@ -26,7 +26,7 @@
 
 ### Rotas principais
 - [✅] **A01:** Instalar `react-router-dom`
-- [ ] **A02:** Criar rotas completas (ver lista abaixo)
+- [✅] **A02:** Criar rotas completas (ver lista abaixo)
 - [🟨] **A03:** Criar layout compartilhado (`RootLayout`) com Sidebar + Navbar + área de conteúdo
 - [✅] **A04:** Criar componente `Sidebar` com seções: Core, Extras, Institucional, Sistema
 - [✅] **A05:** Criar componente `Navbar` (topbar com busca, notificações, avatar)
@@ -149,7 +149,7 @@
 | Módulo                        | Status |
 | ----------------------------- | :----: |
 | Setup & Configuração          |   🟨   |
-| Arquitetura (Rotas/Layout)    |   ⬜   |
+| Arquitetura (Rotas/Layout)    |   🟨   |
 | Páginas Core                  |   ⬜   |
 | Páginas Extras                |   ⬜   |
 | Páginas Institucionais        |   ⬜   |
