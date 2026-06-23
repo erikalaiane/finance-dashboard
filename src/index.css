@@ -1,2 +1,57 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --vx-bg: #15121F;
+  --vx-card: #1E1A2B;
+  --vx-surface: #2D2640;
+  --vx-violet: #9333EA;
+  --vx-lilac: #C084FC;
+  --vx-pink: #EC4899;
+  --vx-receita: #34D399;
+  --vx-despesa: #F87171;
+  --vx-text-primary: #F5F3F7;
+  --vx-text-secondary: #9D94B0;
+  --vx-text-muted: #6B6480;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--vx-bg);
+  color: var(--vx-text-primary);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.glass-subtle {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+}
+
+.glass-accent {
+  background: rgba(147, 51, 234, 0.15);
+  border: 1px solid rgba(192, 132, 252, 0.25);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #C084FC, #EC4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
