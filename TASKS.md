@@ -28,7 +28,7 @@
 - [✅] **A01:** Instalar `react-router-dom`
 - [ ] **A02:** Criar rotas completas (ver lista abaixo)
 - [🟨] **A03:** Criar layout compartilhado (`RootLayout`) com Sidebar + Navbar + área de conteúdo
-- [ ] **A04:** Criar componente `Sidebar` com seções: Core, Extras, Institucional, Sistema
+- [✅] **A04:** Criar componente `Sidebar` com seções: Core, Extras, Institucional, Sistema
 - [ ] **A05:** Criar componente `Navbar` (topbar com busca, notificações, avatar)
 
 ### Páginas — Core (dados mockados, completas)
@@ -126,8 +126,8 @@
 
 - [🟨] **V01:** Definir tokens de cor no Tailwind (roxo, navy, glassmorphism)
 - [ ] **V02:** Configurar fontes (tipografia editorial — ex: Bebas Neue + Inter)
-- [ ] **V03:** Criar classes utilitárias para glassmorphism (`glass-card`)
-- [ ] **V04:** Logo/wordmark do Vexra na Sidebar
+- [✅] **V03:** Criar classes utilitárias para glassmorphism (`glass-card`)
+- [✅] **V04:** Logo/wordmark do Vexra na Sidebar
 - [ ] **V05:** Favicon personalizado
 
 ---
