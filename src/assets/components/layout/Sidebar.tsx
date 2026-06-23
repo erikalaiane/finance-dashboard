@@ -176,7 +176,7 @@ export function Sidebar() {
                       fontWeight: 500,
                       textDecoration: "none",
                       transition: "all 0.15s ease",
-                      color: isActive ? "#F5F3F7" : "#9D94B0",
+                      color: isActive ? "#F5F3F7" : "#B8B0CC",
                       background: isActive
                         ? "rgba(147, 51, 234, 0.15)"
                         : "transparent",
