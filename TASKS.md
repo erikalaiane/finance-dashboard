@@ -29,7 +29,7 @@
 - [ ] **A02:** Criar rotas completas (ver lista abaixo)
 - [🟨] **A03:** Criar layout compartilhado (`RootLayout`) com Sidebar + Navbar + área de conteúdo
 - [✅] **A04:** Criar componente `Sidebar` com seções: Core, Extras, Institucional, Sistema
-- [ ] **A05:** Criar componente `Navbar` (topbar com busca, notificações, avatar)
+- [✅] **A05:** Criar componente `Navbar` (topbar com busca, notificações, avatar)
 
 ### Páginas — Core (dados mockados, completas)
 - [ ] **P-C01:** `/` — Dashboard (home do app: KPIs, gráfico, tabela resumo, painel lateral)
