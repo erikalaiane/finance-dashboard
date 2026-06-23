@@ -67,8 +67,9 @@ export function Sidebar() {
     <aside
       style={{
         position: "relative",
-        height: "calc(100vh - 30px)",
+        height: "100%",
         width: "240px",
+        overflowY: "hidden",
         zIndex: 10,
         display: "flex",
         flexDirection: "column",
@@ -90,9 +91,9 @@ export function Sidebar() {
       >
         <div
           style={{
-            width: "32px",
-            height: "32px",
-            borderRadius: "8px",
+            width: "40px",
+            height: "40px",
+            borderRadius: "10px",
             background: "linear-gradient(135deg, #9333EA, #EC4899)",
             display: "flex",
             alignItems: "center",
@@ -100,7 +101,7 @@ export function Sidebar() {
             flexShrink: 0,
           }}
         >
-          <Gem size={16} color="white" />
+          <Gem size={20} color="white" />
         </div>
         <div>
           <div
@@ -119,11 +120,11 @@ export function Sidebar() {
           </div>
           <div
             style={{
-              fontSize: "10px",
-              letterSpacing: "2px",
+              fontSize: "9px",
+              letterSpacing: "1.5px",
               color: "#6B6480",
               textTransform: "uppercase",
-              marginTop: "2px",
+              marginTop: "6px",
             }}
           >
             Soluzioni Finanziarie
@@ -132,7 +133,7 @@ export function Sidebar() {
       </div>
 
       {/* Nav sections */}
-      <nav style={{ flex: 1, overflowY: "auto", display: "flex", flexDirection: "column", gap: "24px" }}>
+      <nav style={{ flex: 1, overflowY: "hidden", display: "flex", flexDirection: "column", gap: "16px" }}>
         {sections.map((section, i) => (
           <div key={section.title}>
             {i > 0 && (
