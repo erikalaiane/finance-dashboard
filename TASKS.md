@@ -62,16 +62,16 @@
 
 ## 🧩 Tipagem & Modelagem de Dados (TS)
 
-- [ ] **T01:** Criar `interface Transacao` (id, data, categoria, valor, descricao, status)
-- [ ] **T02:** Criar union types: `categoria: 'receita' | 'despesa'`, `status: 'pendente' | 'concluida' | 'cancelada'`
-- [ ] **T03:** Criar `interface KPIData` (titulo, valor, variacao, icone)
-- [ ] **T04:** Criar `interface Meta` (id, titulo, valorAtual, valorAlvo, prazo, categoria)
-- [ ] **T05:** Criar `interface Carteira` (id, nome, saldo, tipo, variacao)
-- [ ] **T06:** Criar `interface Evento` (id, titulo, data, tipo, valor)
-- [ ] **T07:** Criar `interface Membro` (id, nome, cargo, avatar, permissao)
-- [ ] **T08:** Criar `interface Notificacao` (id, titulo, mensagem, tipo, lida, data)
-- [ ] **T09:** Criar tipo do contexto de tema (`ThemeContextType`)
-- [ ] **T10:** Tipar dados mockados em `data/mock.ts`
+- [✅] **T01:** Criar `interface Transacao` (id, data, categoria, valor, descricao, status)
+- [✅] **T02:** Criar union types: `categoria: 'receita' | 'despesa'`, `status: 'pendente' | 'concluida' | 'cancelada'`
+- [✅] **T03:** Criar `interface KPIData` (titulo, valor, variacao, icone)
+- [✅] **T04:** Criar `interface Meta` (id, titulo, valorAtual, valorAlvo, prazo, categoria)
+- [✅] **T05:** Criar `interface Carteira` (id, nome, saldo, tipo, variacao)
+- [✅] **T06:** Criar `interface Evento` (id, titulo, data, tipo, valor)
+- [✅] **T07:** Criar `interface Membro` (id, nome, cargo, avatar, permissao)
+- [✅] **T08:** Criar `interface Notificacao` (id, titulo, mensagem, tipo, lida, data)
+- [✅] **T09:** Criar tipo do contexto de tema (`ThemeContextType`)
+- [✅] **T10:** Tipar dados mockados em `data/mock.ts`
 
 ---
 
@@ -153,7 +153,7 @@
 | Páginas Core                  |   ⬜   |
 | Páginas Extras                |   ⬜   |
 | Páginas Institucionais        |   ⬜   |
-| Tipagem & Dados (TS)          |   ⬜   |
+| Tipagem & Dados (TS)          |   ✅   |
 | Componentes Compartilhados    |   ⬜   |
 | Identidade Visual             |   ⬜   |
 | Layout & Responsividade       |   ⬜   |
