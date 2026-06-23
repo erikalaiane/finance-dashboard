@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { StarBackground } from "../ui/StarBackground";
 import { Sidebar } from "./Sidebar";
-// import { Navbar } from "./Navbar";
+import { Navbar } from "./Navbar";
 
 export function RootLayout() {
   return (
@@ -21,6 +21,7 @@ export function RootLayout() {
   }}>
     <Sidebar />
     <main style={{ flex: 1, padding: "0 0 0 16px" }}>
+      <Navbar />
       <Outlet />
     </main>
   </div>
