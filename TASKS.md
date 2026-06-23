@@ -13,9 +13,10 @@
 - [x] Criar projeto com Vite (`npm create vite@latest finance-dashboard -- --template react-ts`)
 - [x] Instalar e configurar Tailwind CSS v4 (`@tailwindcss/vite` + `@import "tailwindcss"`)
 - [x] Remover boilerplate padrão do Vite/React (App.tsx, App.css, assets)
+- [x] Estrutura de pastas (components, pages, types, data, context)
 - [ ] Instalar Recharts
 - [ ] Instalar Framer Motion
-- [ ] Estrutura de pastas (components, pages, types, hooks, data, utils, context)
+- [ ] Instalar React Router DOM
 - [x] Subir repositório no GitHub
 - [ ] Configurar deploy contínuo (Vercel)
 
@@ -70,18 +71,7 @@
 - [ ] **T07:** Criar `interface Membro` (id, nome, cargo, avatar, permissao)
 - [ ] **T08:** Criar `interface Notificacao` (id, titulo, mensagem, tipo, lida, data)
 - [ ] **T09:** Criar tipo do contexto de tema (`ThemeContextType`)
-- [ ] **T10:** Tipar dados mockados em `data/transacoes.ts`, `data/metas.ts`, etc.
-
----
-
-## 🔌 Camada de Dados (Hooks)
-
-- [ ] **D01:** Criar `useTransactions()` → retorna `Transacao[]` com filtros
-- [ ] **D02:** Criar `useKPIs()` → calcula totais e variação "vs mês anterior"
-- [ ] **D03:** Criar `useMetas()` → retorna `Meta[]` com % de progresso calculado
-- [ ] **D04:** Criar `useCarteiras()` → retorna `Carteira[]` com saldo total
-- [ ] **D05:** Criar `useNotificacoes()` → retorna lista com contagem de não lidas
-- [ ] **D06:** Criar `useTheme()` → consome o contexto de tema
+- [ ] **T10:** Tipar dados mockados em `data/mock.ts`
 
 ---
 
@@ -164,7 +154,6 @@
 | Páginas Extras                |   ⬜   |
 | Páginas Institucionais        |   ⬜   |
 | Tipagem & Dados (TS)          |   ⬜   |
-| Hooks                         |   ⬜   |
 | Componentes Compartilhados    |   ⬜   |
 | Identidade Visual             |   ⬜   |
 | Layout & Responsividade       |   ⬜   |
