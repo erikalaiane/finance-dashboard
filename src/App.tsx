@@ -1,9 +1,14 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { RootLayout } from "./assets/components/layout/RootLayout";
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold text-blue-500">
-      Finance Dashboard
-    </h1>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<RootLayout />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
