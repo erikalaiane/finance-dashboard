@@ -10,14 +10,14 @@
 
 ## ⚙️ Setup & Configuração
 
-- [x] Criar projeto com Vite (`npm create vite@latest finance-dashboard -- --template react-ts`)
-- [x] Instalar e configurar Tailwind CSS v4 (`@tailwindcss/vite` + `@import "tailwindcss"`)
-- [x] Remover boilerplate padrão do Vite/React (App.tsx, App.css, assets)
-- [x] Estrutura de pastas (components, pages, types, data, context)
+- [✅] Criar projeto com Vite (`npm create vite@latest finance-dashboard -- --template react-ts`)
+- [✅] Instalar e configurar Tailwind CSS v4 (`@tailwindcss/vite` + `@import "tailwindcss"`)
+- [✅] Remover boilerplate padrão do Vite/React (App.tsx, App.css, assets)
+- [✅] Estrutura de pastas (components, pages, types, data, context)
 - [ ] Instalar Recharts
 - [ ] Instalar Framer Motion
-- [ ] Instalar React Router DOM
-- [x] Subir repositório no GitHub
+- [✅] Instalar React Router DOM
+- [✅] Subir repositório no GitHub
 - [ ] Configurar deploy contínuo (Vercel)
 
 ---
@@ -25,9 +25,9 @@
 ## 🗺️ Arquitetura de Páginas & Modais
 
 ### Rotas principais
-- [ ] **A01:** Instalar `react-router-dom`
+- [✅] **A01:** Instalar `react-router-dom`
 - [ ] **A02:** Criar rotas completas (ver lista abaixo)
-- [ ] **A03:** Criar layout compartilhado (`RootLayout`) com Sidebar + Navbar + área de conteúdo
+- [🟨] **A03:** Criar layout compartilhado (`RootLayout`) com Sidebar + Navbar + área de conteúdo
 - [ ] **A04:** Criar componente `Sidebar` com seções: Core, Extras, Institucional, Sistema
 - [ ] **A05:** Criar componente `Navbar` (topbar com busca, notificações, avatar)
 
@@ -124,7 +124,7 @@
 
 ## 🎭 Identidade Visual (Vexra Denaro)
 
-- [ ] **V01:** Definir tokens de cor no Tailwind (roxo, navy, glassmorphism)
+- [🟨] **V01:** Definir tokens de cor no Tailwind (roxo, navy, glassmorphism)
 - [ ] **V02:** Configurar fontes (tipografia editorial — ex: Bebas Neue + Inter)
 - [ ] **V03:** Criar classes utilitárias para glassmorphism (`glass-card`)
 - [ ] **V04:** Logo/wordmark do Vexra na Sidebar

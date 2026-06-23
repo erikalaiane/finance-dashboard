@@ -1,18 +1,21 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap');
 
-:root {
-  --vx-bg: #15121F;
-  --vx-card: #1E1A2B;
-  --vx-surface: #2D2640;
-  --vx-violet: #9333EA;
-  --vx-lilac: #C084FC;
-  --vx-pink: #EC4899;
-  --vx-receita: #34D399;
-  --vx-despesa: #F87171;
-  --vx-text-primary: #F5F3F7;
-  --vx-text-secondary: #9D94B0;
-  --vx-text-muted: #6B6480;
+@theme {
+  --color-vx-bg: #15121F;
+  --color-vx-card: #1E1A2B;
+  --color-vx-surface: #2D2640;
+  --color-vx-violet: #9333EA;
+  --color-vx-lilac: #C084FC;
+  --color-vx-pink: #EC4899;
+  --color-vx-receita: #34D399;
+  --color-vx-despesa: #F87171;
+  --color-vx-text-primary: #F5F3F7;
+  --color-vx-text-secondary: #9D94B0;
+  --color-vx-text-muted: #6B6480;
+
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-body: 'Inter', sans-serif;
 }
 
 * {
@@ -22,9 +25,9 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
-  background-color: var(--vx-bg);
-  color: var(--vx-text-primary);
+  font-family: var(--font-body);
+  background-color: var(--color-vx-bg);
+  color: var(--color-vx-text-primary);
 }
 
 .glass {
