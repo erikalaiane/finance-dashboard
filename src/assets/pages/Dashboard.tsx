@@ -2,6 +2,7 @@ import { KPICard } from "../components/dashboard/KPICard";
 import { RevenueChart } from "../components/dashboard/RevenueChart";
 import { DonutChart } from "../components/dashboard/DonutChart";
 import { RecentTransactions } from "../components/dashboard/RecentTransactions";
+import { SidePanel } from "../components/dashboard/SidePanel";
 import { kpis } from "../data/mock";
 import { TrendingUp, TrendingDown, Wallet, Target } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
@@ -40,7 +41,7 @@ export function Dashboard() {
           fontFamily: "'Inter', sans-serif",
           fontSize: "14px",
         }}>
-          Eventos + Metas em breve
+          <SidePanel />
         </div>
       </div>
 
