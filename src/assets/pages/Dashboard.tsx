@@ -1,6 +1,7 @@
 import { KPICard } from "../components/dashboard/KPICard";
 import { RevenueChart } from "../components/dashboard/RevenueChart";
 import { DonutChart } from "../components/dashboard/DonutChart";
+import { RecentTransactions } from "../components/dashboard/RecentTransactions";
 import { kpis } from "../data/mock";
 import { TrendingUp, TrendingDown, Wallet, Target } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
@@ -20,7 +21,27 @@ export function Dashboard() {
       {/* Linha 2: Gráfico + Donut */}
       <div style={{ display: "grid", gridTemplateColumns: "2fr 1fr", gap: "16px" }}>
         <RevenueChart />
-       <DonutChart />
+        <DonutChart />
+      </div>
+
+      {/* Linha 3: Transações + placeholder */}
+      <div style={{ display: "grid", gridTemplateColumns: "2fr 1fr", gap: "16px" }}>
+        <RecentTransactions />
+        <div style={{
+          background: "rgba(30, 26, 43, 0.6)",
+          backdropFilter: "blur(16px)",
+          border: "1px solid rgba(255,255,255,0.07)",
+          borderRadius: "16px",
+          padding: "24px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          color: "#6B6480",
+          fontFamily: "'Inter', sans-serif",
+          fontSize: "14px",
+        }}>
+          Eventos + Metas em breve
+        </div>
       </div>
 
     </div>

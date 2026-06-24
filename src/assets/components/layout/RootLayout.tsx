@@ -19,12 +19,24 @@ export function RootLayout() {
         position: "relative",
         zIndex: 1,
       }}>
-        <Sidebar />
-        <main style={{ flex: 1, padding: "16px 0 0 16px", display: "flex", flexDirection: "column" }}>
-          <Navbar />
-          <Outlet />
-        </main>
-      </div>
+      <Sidebar />
+      <main style={{ 
+        flex: 1, 
+        padding: "16px 0 0 16px",
+        display: "flex",
+        flexDirection: "column",
+        overflow: "hidden",  // impede o main de crescer
+      }}>
+        <Navbar />
+        <div style={{ 
+          flex: 1, 
+          overflowY: "auto",  // só essa área rola
+          paddingRight: "4px",
+        }}>
+      <Outlet />
+    </div>
+  </main>
+</div>
     </div>
   );
 }

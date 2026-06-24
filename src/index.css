@@ -58,3 +58,21 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+/* Esconde scrollbar mas mantém scroll funcional */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(192, 132, 252, 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(192, 132, 252, 0.4);
+}
