@@ -150,7 +150,7 @@
 | ----------------------------- | :----: |
 | Setup & Configuração          |   🟨   |
 | Arquitetura (Rotas/Layout)    |   🟨   |
-| Páginas Core                  |   ⬜   |
+| Páginas Core                  |   🟨   |
 | Páginas Extras                |   ⬜   |
 | Páginas Institucionais        |   ⬜   |
 | Tipagem & Dados (TS)          |   ✅   |
