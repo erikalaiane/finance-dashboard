@@ -33,7 +33,7 @@
 
 ### Páginas — Core (dados mockados, completas)
 - [✅] **P-C01:** `/` — Dashboard (home do app: KPIs, gráfico, tabela resumo, painel lateral)
-- [ ] **P-C02:** `/transacoes` — Tabela completa com filtros, paginação e modais
+- [✅] **P-C02:** `/transacoes` — Tabela completa com filtros, paginação e modais
 - [ ] **P-C03:** `/relatorios` — Gráficos por período, comparativo, exportação mockada
 - [ ] **P-C04:** `/carteiras` — Cards de contas/ativos separados com saldos
 
@@ -52,10 +52,10 @@
 - [ ] **P-S01:** `/configuracoes` — Perfil, tema claro/escuro, preferências
 
 ### Modais
-- [ ] **M01:** Criar componente `Modal` reutilizável (overlay, fecha com ESC/clique fora)
+- [✅] **M01:** Criar componente `Modal` reutilizável (overlay, fecha com ESC/clique fora)
 - [ ] **M02:** Criar `ModalContext` (controla qual modal está aberto globalmente)
-- [ ] **M03:** Modal "Detalhes da transação"
-- [ ] **M04:** Modal "Nova transação" com formulário tipado
+- [✅] **M03:** Modal "Detalhes da transação"
+- [✅] **M04:** Modal "Nova transação" com formulário tipado
 - [ ] **M05:** Modal "Nova meta"
 
 ---
@@ -92,11 +92,11 @@
 
 ### Tabela de Transações
 - [✅] **TB01:** Renderizar lista de transações com tipagem
-- [ ] **TB02:** Campo de filtro por texto
-- [ ] **TB03:** Filtro por categoria (receita/despesa) e status
-- [ ] **TB04:** Paginação
-- [ ] **TB05:** Empty state (quando filtro não retorna nada)
-- [ ] **TB06:** Linha clicável → abre modal de detalhes
+- [✅] **TB02:** Campo de filtro por texto
+- [✅] **TB03:** Filtro por categoria (receita/despesa) e status
+- [✅] **TB04:** Paginação
+- [✅] **TB05:** Empty state (quando filtro não retorna nada)
+- [✅] **TB06:** Linha clicável → abre modal de detalhes
 
 ### Toggle de Tema
 - [ ] **TH01:** `createContext<ThemeContextType | undefined>`
