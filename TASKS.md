@@ -14,7 +14,7 @@
 - [✅] Instalar e configurar Tailwind CSS v4 (`@tailwindcss/vite` + `@import "tailwindcss"`)
 - [✅] Remover boilerplate padrão do Vite/React (App.tsx, App.css, assets)
 - [✅] Estrutura de pastas (components, pages, types, data, context)
-- [ ] Instalar Recharts
+- [✅] Instalar Recharts
 - [ ] Instalar Framer Motion
 - [✅] Instalar React Router DOM
 - [✅] Subir repositório no GitHub
@@ -84,11 +84,11 @@
 - [ ] **C04:** Animação de entrada com Framer Motion
 
 ### Gráficos (Recharts)
-- [ ] **G01:** Gráfico de receita x despesa por período (LineChart + AreaChart)
-- [ ] **G02:** Tooltip customizado com glassmorphism
+- [✅] **G01:** Gráfico de receita x despesa por período (LineChart + AreaChart)
+- [✅] **G02:** Tooltip customizado com glassmorphism
 - [ ] **G03:** Cores do gráfico reagindo ao tema dark/light
-- [ ] **G04:** Tipar o retorno de dados que alimenta os gráficos
-- [ ] **G05:** Gráfico de pizza/donut para distribuição por categoria
+- [✅] **G04:** Tipar o retorno de dados que alimenta os gráficos
+- [✅] **G05:** Gráfico de pizza/donut para distribuição por categoria
 
 ### Tabela de Transações
 - [ ] **TB01:** Renderizar lista de transações com tipagem
@@ -154,7 +154,7 @@
 | Páginas Extras                |   ⬜   |
 | Páginas Institucionais        |   ⬜   |
 | Tipagem & Dados (TS)          |   ✅   |
-| Componentes Compartilhados    |   ⬜   |
+| Componentes Compartilhados    |   🟨   |
 | Identidade Visual             |   ⬜   |
 | Layout & Responsividade       |   ⬜   |
 | Polish & Deploy               |   ⬜   |
