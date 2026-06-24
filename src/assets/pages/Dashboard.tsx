@@ -1,3 +1,4 @@
+import { WelcomeHeader } from "../components/dashboard/WelcomeHeader";
 import { KPICard } from "../components/dashboard/KPICard";
 import { RevenueChart } from "../components/dashboard/RevenueChart";
 import { DonutChart } from "../components/dashboard/DonutChart";
@@ -12,6 +13,7 @@ const icones: LucideIcon[] = [TrendingUp, TrendingDown, Wallet, Target];
 export function Dashboard() {
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: "16px", marginTop: "8px" }}>
+      <WelcomeHeader />
       {/* KPIs */}
       <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "16px" }}>
         {kpis.map((kpi, i) => (
