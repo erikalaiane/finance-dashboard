@@ -32,7 +32,7 @@
 - [✅] **A05:** Criar componente `Navbar` (topbar com busca, notificações, avatar)
 
 ### Páginas — Core (dados mockados, completas)
-- [ ] **P-C01:** `/` — Dashboard (home do app: KPIs, gráfico, tabela resumo, painel lateral)
+- [✅] **P-C01:** `/` — Dashboard (home do app: KPIs, gráfico, tabela resumo, painel lateral)
 - [ ] **P-C02:** `/transacoes` — Tabela completa com filtros, paginação e modais
 - [ ] **P-C03:** `/relatorios` — Gráficos por período, comparativo, exportação mockada
 - [ ] **P-C04:** `/carteiras` — Cards de contas/ativos separados com saldos
@@ -105,7 +105,7 @@
 
 ### Outros componentes reutilizáveis
 - [✅] **CR01:** `Badge` (status de transação com cores)
-- [ ] **CR02:** `ProgressBar` animada (para Metas)
+- [✅] **CR02:** `ProgressBar` animada (para Metas)
 - [ ] **CR03:** `Avatar` com iniciais fallback
 - [ ] **CR04:** `EmptyState` genérico reutilizável
 - [ ] **CR05:** `Skeleton` loading para cards e tabela
