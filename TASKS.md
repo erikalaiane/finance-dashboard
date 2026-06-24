@@ -78,9 +78,9 @@
 ## 🎨 Componentes Compartilhados
 
 ### KPICard
-- [ ] **C01:** Props tipadas com `interface KPICardProps`
-- [ ] **C02:** Indicador de variação (alta/baixa) com cor condicional
-- [ ] **C03:** Ícone de seta (alta ↑ / baixa ↓)
+- [✅] **C01:** Props tipadas com `interface KPICardProps`
+- [✅] **C02:** Indicador de variação (alta/baixa) com cor condicional
+- [✅] **C03:** Ícone de seta (alta ↑ / baixa ↓)
 - [ ] **C04:** Animação de entrada com Framer Motion
 
 ### Gráficos (Recharts)
