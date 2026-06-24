@@ -91,7 +91,7 @@
 - [✅] **G05:** Gráfico de pizza/donut para distribuição por categoria
 
 ### Tabela de Transações
-- [ ] **TB01:** Renderizar lista de transações com tipagem
+- [✅] **TB01:** Renderizar lista de transações com tipagem
 - [ ] **TB02:** Campo de filtro por texto
 - [ ] **TB03:** Filtro por categoria (receita/despesa) e status
 - [ ] **TB04:** Paginação
@@ -104,7 +104,7 @@
 - [ ] **TH03:** Persistência da escolha (localStorage)
 
 ### Outros componentes reutilizáveis
-- [ ] **CR01:** `Badge` (status de transação com cores)
+- [✅] **CR01:** `Badge` (status de transação com cores)
 - [ ] **CR02:** `ProgressBar` animada (para Metas)
 - [ ] **CR03:** `Avatar` com iniciais fallback
 - [ ] **CR04:** `EmptyState` genérico reutilizável
