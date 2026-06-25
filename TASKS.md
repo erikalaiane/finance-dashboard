@@ -38,7 +38,7 @@
 - [✅] **P-C04:** `/carteiras` — Cards de contas/ativos separados com saldos
 
 ### Páginas — Extras (interativas, podem evoluir)
-- [ ] **P-E01:** `/metas` — Progress bars animadas, cards de objetivo financeiro
+- [✅] **P-E01:** `/metas` — Progress bars animadas, cards de objetivo financeiro
 - [ ] **P-E02:** `/eventos` — Calendário de vencimentos e pagamentos futuros
 - [ ] **P-E03:** `/notificacoes` — Central de alertas e avisos
 - [ ] **P-E04:** `/equipe` — Membros com acesso e permissões (estático mas visual)
@@ -56,7 +56,7 @@
 - [ ] **M02:** Criar `ModalContext` (controla qual modal está aberto globalmente)
 - [✅] **M03:** Modal "Detalhes da transação"
 - [✅] **M04:** Modal "Nova transação" com formulário tipado
-- [ ] **M05:** Modal "Nova meta"
+- [✅] **M05:** Modal "Nova meta"
 
 ---
 
@@ -151,7 +151,7 @@
 | Setup & Configuração          |   🟨   |
 | Arquitetura (Rotas/Layout)    |   🟨   |
 | Páginas Core                  |   ✅   |
-| Páginas Extras                |   ⬜   |
+| Páginas Extras                |   🟨   |
 | Páginas Institucionais        |   ⬜   |
 | Tipagem & Dados (TS)          |   ✅   |
 | Componentes Compartilhados    |   🟨   |
