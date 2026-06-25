@@ -39,7 +39,7 @@
 
 ### Páginas — Extras (interativas, podem evoluir)
 - [✅] **P-E01:** `/metas` — Progress bars animadas, cards de objetivo financeiro
-- [ ] **P-E02:** `/eventos` — Calendário de vencimentos e pagamentos futuros
+- [✅] **P-E02:** `/eventos` — Calendário de vencimentos e pagamentos futuros
 - [ ] **P-E03:** `/notificacoes` — Central de alertas e avisos
 - [ ] **P-E04:** `/equipe` — Membros com acesso e permissões (estático mas visual)
 
