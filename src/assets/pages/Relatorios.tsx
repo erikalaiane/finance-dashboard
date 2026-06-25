@@ -355,9 +355,9 @@ export function Relatorios() {
             <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" />
             <XAxis dataKey="mes" tick={{ fill: "#6B6480", fontSize: 11, fontFamily: "'Inter', sans-serif" }} axisLine={false} tickLine={false} />
             <YAxis tickFormatter={formatarValor} tick={{ fill: "#6B6480", fontSize: 11, fontFamily: "'Inter', sans-serif" }} axisLine={false} tickLine={false} />
-            <Tooltip content={<CustomTooltip />} />
-            <Bar dataKey="receita" fill="#C084FC" radius={[4, 4, 0, 0]} maxBarSize={32} />
-            <Bar dataKey="despesa" fill="#F87171" radius={[4, 4, 0, 0]} maxBarSize={32} />
+            <Tooltip content={<CustomTooltip />} cursor={{ fill: "rgba(255,255,255,0.04)", radius: 4 }} />
+            <Bar dataKey="receita" fill="#C084FC" radius={[4, 4, 0, 0]} maxBarSize={32} activeBar={{ fill: "#C084FC", opacity: 0.8 }} />
+            <Bar dataKey="despesa" fill="#F87171" radius={[4, 4, 0, 0]} maxBarSize={32} activeBar={{ fill: "#F87171", opacity: 0.8 }} />
           </BarChart>
         </ResponsiveContainer>
       </div>
