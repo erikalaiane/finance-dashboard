@@ -35,7 +35,7 @@
 - [✅] **P-C01:** `/` — Dashboard (home do app: KPIs, gráfico, tabela resumo, painel lateral)
 - [✅] **P-C02:** `/transacoes` — Tabela completa com filtros, paginação e modais
 - [✅] **P-C03:** `/relatorios` — Gráficos por período, comparativo, exportação mockada
-- [ ] **P-C04:** `/carteiras` — Cards de contas/ativos separados com saldos
+- [✅] **P-C04:** `/carteiras` — Cards de contas/ativos separados com saldos
 
 ### Páginas — Extras (interativas, podem evoluir)
 - [ ] **P-E01:** `/metas` — Progress bars animadas, cards de objetivo financeiro
@@ -150,7 +150,7 @@
 | ----------------------------- | :----: |
 | Setup & Configuração          |   🟨   |
 | Arquitetura (Rotas/Layout)    |   🟨   |
-| Páginas Core                  |   🟨   |
+| Páginas Core                  |   ✅   |
 | Páginas Extras                |   ⬜   |
 | Páginas Institucionais        |   ⬜   |
 | Tipagem & Dados (TS)          |   ✅   |
